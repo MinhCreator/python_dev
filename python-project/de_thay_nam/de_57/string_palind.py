@@ -28,5 +28,5 @@ with open('XCAN26.INP', 'r') as file:
 
 
 with open('XCON26.OUT', 'w') as file:
-    print(lst_str)
-    #print(file=file)
+    print(func(lst_str), file = file)
+    
